@@ -1,6 +1,5 @@
 {
   "sections": {
-    "header": {"type": "header", "settings": {}},
     "main": {"type": "page-about", "settings": {}},
     "footer": {"type": "footer", "settings": {}}
   },
