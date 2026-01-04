@@ -1,6 +1,5 @@
 {
   "sections": {
-    "header": {"type": "header", "settings": {}},
     "hero": {"type": "hero", "settings": {}},
     "benefits": {"type": "benefits", "settings": {}},
     "how-it-works": {"type": "how-it-works", "settings": {}},
