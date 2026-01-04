@@ -1,0 +1,19 @@
+<style>
+.main-page{padding:4rem 0}@media(min-width:1024px){.main-page{padding:6rem 0}}.main-page__container{max-width:48rem;margin:0 auto}.main-page__title{font-size:2rem;font-weight:700;margin-bottom:2rem}@media(min-width:768px){.main-page__title{font-size:2.5rem}}.main-page__content{color:var(--muted-foreground);line-height:1.8}.main-page__content h2,.main-page__content h3{color:var(--foreground);margin-top:2rem;margin-bottom:1rem}.main-page__content p{margin-bottom:1rem}.main-page__content ul,.main-page__content ol{margin-bottom:1rem;padding-left:1.5rem}.main-page__content a{color:var(--brand);text-decoration:underline}
+</style>
+
+<div class="main-page">
+  <div class="container">
+    <div class="main-page__container">
+      <h1 class="main-page__title font-sora">{{ page.title }}</h1>
+      <div class="main-page__content">{{ page.content }}</div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Pagina inhoud",
+  "settings": []
+}
+{% endschema %}

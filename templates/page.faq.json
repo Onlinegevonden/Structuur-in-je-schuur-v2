@@ -1,0 +1,8 @@
+{
+  "sections": {
+    "header": {"type": "header", "settings": {}},
+    "main": {"type": "page-faq", "settings": {}},
+    "footer": {"type": "footer", "settings": {}}
+  },
+  "order": ["header", "main", "footer"]
+}
